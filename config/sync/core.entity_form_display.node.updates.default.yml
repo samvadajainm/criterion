@@ -1,0 +1,39 @@
+uuid: 78530942-7e86-4fc6-ac87-fea340b08b82
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.updates.body
+    - field.field.node.updates.field_title
+    - field.field.node.updates.field_update
+    - node.type.updates
+id: node.updates.default
+targetEntityType: node
+bundle: updates
+mode: default
+content:
+  field_update:
+    weight: 1
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textarea
+    region: content
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  body: true
+  created: true
+  field_title: true
+  path: true
+  promote: true
+  status: true
+  sticky: true
+  uid: true

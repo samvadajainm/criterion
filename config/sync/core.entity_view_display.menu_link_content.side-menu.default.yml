@@ -1,0 +1,17 @@
+uuid: 03dfe5c7-82c2-4c04-98ba-648d71895688
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.side-menu
+id: menu_link_content.side-menu.default
+targetEntityType: menu_link_content
+bundle: side-menu
+mode: default
+content:
+  children:
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

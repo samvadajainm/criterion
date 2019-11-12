@@ -1,0 +1,19 @@
+uuid: bb3263e4-c7a1-4f34-b380-7611cac86775
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.background_image
+    - field.storage.block_content.field_bg_text
+id: block_content.background_image.field_bg_text
+field_name: field_bg_text
+entity_type: block_content
+bundle: background_image
+label: 'bg Text'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

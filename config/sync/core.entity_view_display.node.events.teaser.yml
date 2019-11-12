@@ -1,0 +1,64 @@
+uuid: 1167c8a1-bf63-48e8-8a1d-7d53fbd97ec0
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.events.body
+    - field.field.node.events.field_audience
+    - field.field.node.events.field_dont_require_registeration
+    - field.field.node.events.field_e
+    - field.field.node.events.field_image
+    - field.field.node.events.field_paid
+    - field.field.node.events.field_price
+    - field.field.node.events.field_registration_form
+    - field.field.node.events.field_registration_link
+    - field.field.node.events.field_shoulder_text
+    - field.field.node.events.field_sponser
+    - field.field.node.events.field_teaser_image
+    - field.field.node.events.field_topics
+    - field.field.node.events.field_venue
+    - image.style.teaser_image
+    - node.type.events
+  module:
+    - image
+    - user
+id: node.events.teaser
+targetEntityType: node
+bundle: events
+mode: teaser
+content:
+  field_shoulder_text:
+    type: basic_string
+    weight: 1
+    region: content
+    label: visually_hidden
+    settings: {  }
+    third_party_settings: {  }
+  field_teaser_image:
+    type: image
+    weight: 0
+    region: content
+    label: visually_hidden
+    settings:
+      image_style: teaser_image
+      image_link: ''
+    third_party_settings: {  }
+  links:
+    weight: 2
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  body: true
+  field_audience: true
+  field_dont_require_registeration: true
+  field_e: true
+  field_image: true
+  field_paid: true
+  field_price: true
+  field_registration_form: true
+  field_registration_link: true
+  field_sponser: true
+  field_topics: true
+  field_venue: true

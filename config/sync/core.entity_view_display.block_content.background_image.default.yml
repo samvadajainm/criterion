@@ -1,0 +1,41 @@
+uuid: d188783a-28ee-4615-ab30-e1c893e130ff
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.background_image
+    - field.field.block_content.background_image.body
+    - field.field.block_content.background_image.field_bg_image
+    - field.field.block_content.background_image.field_bg_text
+  module:
+    - image
+    - text
+id: block_content.background_image.default
+targetEntityType: block_content
+bundle: background_image
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_bg_image:
+    weight: 1
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_bg_text:
+    weight: 2
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+hidden: {  }

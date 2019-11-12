@@ -1,0 +1,12 @@
+uuid: 12a433f7-c0af-4451-895e-687fc2a80b14
+langcode: en
+status: true
+dependencies: {  }
+id: event_manager
+label: 'Event Manager'
+weight: 3
+is_admin: null
+permissions:
+  - 'create events content'
+  - 'delete own events content'
+  - 'edit own events content'

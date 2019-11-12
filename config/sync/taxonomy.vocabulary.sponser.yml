@@ -1,0 +1,8 @@
+uuid: 30c66f71-8ce1-452f-8ecc-a8aa630b6bda
+langcode: en
+status: true
+dependencies: {  }
+name: Sponser
+vid: sponser
+description: ''
+weight: 0

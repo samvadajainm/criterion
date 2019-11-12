@@ -1,0 +1,20 @@
+uuid: fe4699b8-e221-48ea-936e-75104b48f36a
+langcode: en
+status: true
+dependencies: {  }
+name: teaser_image
+label: 'Teaser Image'
+effects:
+  443f412c-5847-467a-937f-e50d65f231c8:
+    uuid: 443f412c-5847-467a-937f-e50d65f231c8
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 350
+      height: 250
+      anchor: center-center
+  7877de9e-41de-434f-b1d9-e7d3a1111e5f:
+    uuid: 7877de9e-41de-434f-b1d9-e7d3a1111e5f
+    id: image_desaturate
+    weight: 2
+    data: {  }

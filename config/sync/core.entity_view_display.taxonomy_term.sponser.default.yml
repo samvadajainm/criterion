@@ -1,0 +1,33 @@
+uuid: 0553b649-9526-4ae5-90c7-c3b522f8a7b4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.sponser.field_sponser_image
+    - image.style.sponser_image
+    - taxonomy.vocabulary.sponser
+  module:
+    - image
+    - text
+id: taxonomy_term.sponser.default
+targetEntityType: taxonomy_term
+bundle: sponser
+mode: default
+content:
+  description:
+    label: hidden
+    type: text_default
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_sponser_image:
+    weight: 1
+    label: visually_hidden
+    settings:
+      image_style: sponser_image
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden: {  }

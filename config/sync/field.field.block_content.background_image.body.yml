@@ -1,0 +1,22 @@
+uuid: 8f1d08a8-c66e-434f-94bf-7f9ee4699fd9
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.background_image
+    - field.storage.block_content.body
+  module:
+    - text
+id: block_content.background_image.body
+field_name: body
+entity_type: block_content
+bundle: background_image
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

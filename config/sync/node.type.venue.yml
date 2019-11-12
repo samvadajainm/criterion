@@ -1,0 +1,11 @@
+uuid: 44aa228f-8394-49e8-82bc-07e9905d2aa4
+langcode: en
+status: true
+dependencies: {  }
+name: Venue
+type: venue
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

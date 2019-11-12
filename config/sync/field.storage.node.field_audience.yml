@@ -1,0 +1,30 @@
+uuid: d196bfc7-523a-48c4-aaac-ba15330995b6
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_audience
+field_name: field_audience
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: Marketter
+      label: Marketter
+    -
+      value: 'Free Lancers'
+      label: 'Free Lancers'
+    -
+      value: 'Decision Makers'
+      label: 'Decision Makers'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

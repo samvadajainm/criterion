@@ -1,0 +1,22 @@
+uuid: 5c72bf77-d182-4484-bac0-2c1aeec3d730
+langcode: en
+status: true
+dependencies:
+  module:
+    - aggregator
+  theme:
+    - bartik
+id: aggregatorfeed
+theme: bartik
+region: sidebar_first
+weight: -6
+provider: null
+plugin: aggregator_feed_block
+settings:
+  id: aggregator_feed_block
+  label: 'Aggregator feed'
+  provider: aggregator
+  label_display: visible
+  block_count: 10
+  feed: '1'
+visibility: {  }

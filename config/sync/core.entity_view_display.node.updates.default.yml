@@ -1,0 +1,27 @@
+uuid: 0dd28498-c51d-45bc-91b1-5340cb285b2e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.updates.body
+    - field.field.node.updates.field_title
+    - field.field.node.updates.field_update
+    - node.type.updates
+  module:
+    - user
+id: node.updates.default
+targetEntityType: node
+bundle: updates
+mode: default
+content:
+  field_update:
+    weight: 0
+    label: visually_hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+hidden:
+  body: true
+  field_title: true
+  links: true

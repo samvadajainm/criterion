@@ -1,0 +1,15 @@
+uuid: 610fb5a3-63ed-4b73-8ba8-be1b5c3bf3fb
+langcode: en
+status: true
+dependencies: {  }
+name: sponser_image
+label: 'Sponser Image'
+effects:
+  aeda70a9-f87c-4f95-86fa-935263c03202:
+    uuid: aeda70a9-f87c-4f95-86fa-935263c03202
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 250
+      height: 240
+      anchor: center-center

@@ -1,0 +1,33 @@
+uuid: 8fd0f857-42cd-4434-bca3-20cc586451a7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_sponser
+    - node.type.events
+    - taxonomy.vocabulary.sponser
+  content:
+    - 'taxonomy_term:sponser:84ebead6-f201-493d-b8d6-b512ebfd4ea2'
+id: node.events.field_sponser
+field_name: field_sponser
+entity_type: node
+bundle: events
+label: Sponser
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    target_uuid: 84ebead6-f201-493d-b8d6-b512ebfd4ea2
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      sponser: sponser
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference
